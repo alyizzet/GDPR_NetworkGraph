@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Azerion"
+  },
+  "text": {
+    "more": " ",
+    "intro": "This Graph Network shows the GDPR related data flows and their respective Lawful Basis",
+    "title": "Azerion Graph GDPR"
+  },
+  "legend": {
+    "edgeLabel": "Lawful Basis",
+    "colorLabel": "Belonging",
+    "nodeLabel": "Azerion Ecosystem Participants"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "belonging",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3,
+      "minEdgeSize": 1,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
